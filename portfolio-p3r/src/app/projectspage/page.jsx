@@ -110,7 +110,7 @@ export default function ProjectsPage() {
 
         <div id="projects-container">
           <a
-            href="https://alansanchez317.github.io/tictactoe/"
+            href="https://derpnerdd.github.io/tictactoe/"
             target="_blank"
             rel="noreferrer"
           >
@@ -121,18 +121,18 @@ export default function ProjectsPage() {
             />
           </a>
           <a
-            href="https://alansanchez317.github.io/SinglePageJava/"
+            href="https://derpnerdd.github.io/SinglePageJava/"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1739479913/projecttab1_ibba1a.png"
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1739479913/projecttab2_eyvbiy.png"
               alt="Project 2"
               className="project-item"
             />
           </a>
           <a
-            href="https://alansanchez317.github.io/fblacodingandprogramming/HTML/login.html"
+            href="https://derpnerdd.github.io/fblacodingandprogramming/HTML/login.html"
             target="_blank"
             rel="noreferrer"
           >
@@ -143,7 +143,7 @@ export default function ProjectsPage() {
             />
           </a>
           <a
-            href="https://alansanchez317.github.io/memorycardgame/"
+            href="https://derpnerdd.github.io/memorycardgame/"
             target="_blank"
             rel="noreferrer"
           >
@@ -154,7 +154,7 @@ export default function ProjectsPage() {
             />
           </a>
           <a
-            href="https://alansanchez317.github.io/ResponsiveGalleryPage/"
+            href="https://derpnerdd.github.io/ResponsiveGalleryPage/"
             target="_blank"
             rel="noreferrer"
           >
@@ -165,7 +165,7 @@ export default function ProjectsPage() {
             />
           </a>
           <a
-            href="https://alansanchez317.github.io/fblawebcodingdevelopmentproj/"
+            href="https://derpnerdd.github.io/fblawebcodingdevelopmentproj/"
             target="_blank"
             rel="noreferrer"
           >
@@ -176,7 +176,7 @@ export default function ProjectsPage() {
             />
           </a>
           <a
-            href="https://alansanchez317.github.io/ChristmasWebsite/"
+            href="https://derpnerdd.github.io/ChristmasWebsite/"
             target="_blank"
             rel="noreferrer"
           >
@@ -187,18 +187,18 @@ export default function ProjectsPage() {
             />
           </a>
           <a
-            href="https://alansanchez317.github.io/businesswebsitept1/"
+            href="https://derpnerdd.github.io/businesswebsitept1/"
             target="_blank"
             rel="noreferrer"
           >
             <img
-              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1739479915/projecttab7_bi1dkz.png"
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1739479915/projecttab8_ipqxo8.png"
               alt="Project 8"
               className="project-item"
             />
           </a>
           <a
-            href="https://alansanchez317.github.io/endofunitproject/"
+            href="https://derpnerdd.github.io/endofunitproject/"
             target="_blank"
             rel="noreferrer"
           >
@@ -209,7 +209,7 @@ export default function ProjectsPage() {
             />
           </a>
           <a
-            href="https://github.com/AlanSanchez317/firstwebpage"
+            href="https://github.com/DerpNerdd/firstwebpage"
             target="_blank"
             rel="noreferrer"
           >
@@ -220,13 +220,145 @@ export default function ProjectsPage() {
             />
           </a>
           <a
-            href="https://alansanchez317.github.io/fblacodingandprogrammingstate/public"
+            href="https://derpnerdd.github.io/fblacodingandprogrammingstate/public/"
             target="_blank"
             rel="noreferrer"
           >
             <img
               src="https://res.cloudinary.com/dmrevelyc/image/upload/v1739479913/projecttab11_zlqrrb.png"
               alt="Project 11"
+              className="project-item"
+            />
+          </a>
+          <a
+            href="https://derpnerdd.github.io/hangmandesign/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1740692686/projecttab12_rbtuq0.png"
+              alt="Project 12"
+              className="project-item"
+            />
+          </a>
+          <a
+            href="https://derpnerdd.github.io/jquery-maze-game/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1740692686/projecttab13_knm0vt.png"
+              alt="Project 13"
+              className="project-item"
+            />
+          </a>
+          <a
+            href="https://derpnerdd.github.io/wbsummersite/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1740692686/projecttab14_bcqa5r.png"
+              alt="Project 14"
+              className="project-item"
+            />
+          </a>
+          <a
+            href="https://github.com/DerpNerdd/SecretOldManJenkins"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1740692686/projecttab15_sj37ia.png"
+              alt="Project 15"
+              className="project-item"
+            />
+          </a>
+          <a
+            href="https://github.com/DerpNerdd/MyAPI"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1740692687/projecttab16_k6hnmt.png"
+              alt="Project 16"
+              className="project-item"
+            />
+          </a>
+          <a
+            href="https://github.com/DerpNerdd/eventsejs"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1740692687/projecttab17_c8mdv3.png"
+              alt="Project 17"
+              className="project-item"
+            />
+          </a>
+          <a
+            href="https://pet-adoption-webservice.onrender.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1740692687/projecttab18_ahxg0p.png"
+              alt="Project 18"
+              className="project-item"
+            />
+          </a>
+          <a
+            href="https://reactquizizz.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1740692688/projecttab19_iwrzia.png"
+              alt="Project 19"
+              className="project-item"
+            />
+          </a>
+          <a
+            href="https://react-decipher-app.onrender.com/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1740692686/projecttab20_kx2vtx.png"
+              alt="Project 20"
+              className="project-item"
+            />
+          </a>
+          <a
+            href="https://github.com/DerpNerdd/fbla-mad-cordova"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1740692685/projecttab21_ldpftj.png"
+              alt="Project 21"
+              className="project-item"
+            />
+          </a>
+          <a
+            href=""
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1739479911/projecttab_rkqmez.png"
+              alt="Blank Project"
+              className="project-item"
+            />
+          </a>
+          <a
+            href=""
+            target="_blank"
+            rel="noreferrer"
+          >
+            <img
+              src="https://res.cloudinary.com/dmrevelyc/image/upload/v1739479911/projecttab_rkqmez.png"
+              alt="Blank Project"
               className="project-item"
             />
           </a>
