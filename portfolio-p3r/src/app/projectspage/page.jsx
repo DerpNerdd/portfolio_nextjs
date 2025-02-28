@@ -348,7 +348,7 @@ export default function ProjectsPage() {
             <img
               src="https://res.cloudinary.com/dmrevelyc/image/upload/v1739479911/projecttab_rkqmez.png"
               alt="Blank Project"
-              className="project-item"
+              className="project-item blank-project"
             />
           </a>
           <a
@@ -359,7 +359,7 @@ export default function ProjectsPage() {
             <img
               src="https://res.cloudinary.com/dmrevelyc/image/upload/v1739479911/projecttab_rkqmez.png"
               alt="Blank Project"
-              className="project-item"
+              className="project-item blank-project"
             />
           </a>
         </div>

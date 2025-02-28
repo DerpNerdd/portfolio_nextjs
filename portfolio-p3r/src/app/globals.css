@@ -271,8 +271,12 @@ input:checked + .slider:before {
   }
 }
 
+/* Existing global CSS … */
+
+/* Responsive styles for mobile devices */
 @media (max-width: 480px) {
-  #full-page-image, #left-overlay-image {
+  /* For full-page image remain full-screen */
+  #full-page-image {
     position: fixed;
     width: 100vw;
     height: 100vh;
@@ -280,7 +284,18 @@ input:checked + .slider:before {
     left: 0;
     object-fit: cover;
   }
-  
+
+  /* Make the left overlay image smaller */
+  #left-overlay-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 60vh !important;
+    width: auto;
+    object-fit: contain;
+  }
+
+  /* Adjust menu container */
   #menu {
     width: 100%;
     left: 0;
@@ -289,19 +304,21 @@ input:checked + .slider:before {
     text-align: center;
     font-size: 8vw;
   }
-  
+
+  /* Make the Home, Projects, and Skills buttons bigger */
   .menu-link img {
-    width: 30vw;
-    min-width: 100px;
+    width: 80vw;
+    min-width: 300px;
     margin: 0 auto;
   }
-  
+
   .menu-link {
     margin: 5vw 0;
     display: block;
   }
-  
+
   .hover-background {
     display: none;
   }
 }
+

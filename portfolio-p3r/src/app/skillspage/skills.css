@@ -385,169 +385,82 @@
     background-color: #388E3C;
   }
   
-  /* Responsive Styles */
   @media only screen and (max-width: 767px) {
-    #page-wide-overlay, #select-overlay, #Avatar-Information, #purple-thing-overlay, #plus {
-      width: 100%;
-      height: auto;
+    /* Ensure the background covers the viewport and sits behind all content */
+    #page-wide-overlay {
+      display: block;
       position: fixed;
       top: 0;
-      right: 0;
       left: 0;
-      bottom: initial;
-      z-index: 5;
+      width: 100vw;
+      height: 100vh;
       object-fit: cover;
+      z-index: -1;
     }
-  
-    #titletemplate, #titletemplate2, #titletemplate3 {
-      position: fixed;
-      top: 8%;
-      right: 50%;
-      width: 60%;
-      height: auto;
-      z-index: 6;
-      object-fit: contain;
-      transform: translateX(50%) rotate(-0.5deg);
+    
+    /* Hide overlays that may clutter mobile view */
+    #select-overlay,
+    #Avatar-Information,
+    #purple-thing-overlay,
+    #plus {
+      display: none;
     }
-  
+    
+    /* Remove title images completely */
+    #titletemplate, 
+    #titletemplate2, 
+    #titletemplate3 {
+      display: none;
+    }
+    
+    /* Stack skill items vertically and make them larger */
     .skill-item {
       position: relative;
-      width: 80%;
-      height: auto;
-      margin-left: 10%;
-      margin-bottom: 5%;
-      z-index: 7;
+      width: 95%;
+      margin: 15px auto;
+      transform: none;
     }
-  
+    
     .skill-image {
       width: 100%;
       height: auto;
     }
-  
+    
+    /* Increase skill text size and always show it below each image */
     .skill-text {
-      visibility: visible;
-      opacity: 1;
-      position: absolute;
-      top: 100%;
-      left: 0;
-      transform: translateY(10px);
-      width: 100%;
-      height: auto;
-      white-space: normal;
-      font-size: 14px;
-    }
-  
-    #skillstemplate:hover, #skillstemplate2:hover, #skillstemplate3:hover,
-    #skillstemplate4:hover, #skillstemplate5:hover, #skillstemplate6:hover,
-    #skillstemplate7:hover, #skillstemplate8:hover {
+      position: relative;
+      top: 0;
+      left: -123;
       transform: none;
-    }
-  
-    #skillstemplate:hover .skill-text, #skillstemplate2:hover .skill-text,
-    #skillstemplate3:hover .skill-text, #skillstemplate4:hover .skill-text,
-    #skillstemplate5:hover .skill-text, #skillstemplate6:hover .skill-text,
-    #skillstemplate7:hover .skill-text, #skillstemplate8:hover .skill-text {
       visibility: visible;
       opacity: 1;
+      font-size: 20px;  /* Larger text */
+      text-align: center;
+      margin-top: 10px;
     }
-  
-    .modal {
-      padding-top: 60px;
-    }
-  
-    .modal-content {
-      width: 90%;
-      height: auto;
-      margin: 5% auto;
-      animation-name: none;
-    }
-  
-    .close {
-      right: 10px;
-      top: 10px;
-      font-size: 25px;
-    }
-  
+    
+    /* Enlarge navigation buttons for easier tapping */
+    #back-to-home,
     #toggle-effects {
-      top: 5px;
-      right: 5px;
-      left: auto;
+      position: relative;
+      display: inline-block;
+      margin: 15px;
+      padding: 20px 40px;
+      font-size: 24px;
     }
-  
-    #back-to-home {
-      top: 5px;
-      left: 5px;
-      padding: 5px 10px;
-      font-size: 14px;
-    }
-  }
-  
-  @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    #titletemplate, #titletemplate2, #titletemplate3 {
-      width: 25%;
-    }
-    .skill-item {
-      width: 25%;
-    }
-  }
-  
-  @media only screen and (min-width: 1224px) {
-    #titletemplate, #titletemplate2, #titletemplate3 {
-      width: 18%;
-    }
-    .skill-item {
-      width: 18%;
-    }
-  }
-  
-  @media only screen and (min-width: 1824px) {
-    #titletemplate, #titletemplate2, #titletemplate3 {
-      width: 15%;
-    }
-    .skill-item {
-      width: 15%;
-    }
-  }
-  
-  @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-    #titletemplate, #titletemplate2, #titletemplate3 {
-      width: 40%;
-      top: 15%;
-    }
-    .skill-item {
-      width: 40%;
-    }
-    .skill-text {
-      font-size: 18px;
-    }
-  }
-  
-  @media only screen and (min-device-width: 375px) and (max-device-width: 812px) {
-    #titletemplate, #titletemplate2, #titletemplate3 {
-      width: 35%;
-      top: 20%;
-    }
-    .skill-item {
-      width: 35%;
-    }
-    .skill-text {
-      font-size: 20px;
-    }
-  }
-  
-  @media (max-width: 576px) {
-    #titletemplate, #titletemplate2, #titletemplate3 {
-      width: 50%;
-      top: 10%;
-    }
-    .skill-item {
-      width: 50%;
-    }
-    .skill-text {
-      font-size: 14px;
-    }
+    
+    /* Adjust modal to nearly fill the mobile viewport */
     .modal-content {
-      width: 90%;
+      width: 95%;
+      height: 90vh;
+      margin: 5% auto;
+      padding: 15px;
+    }
+    
+    .close {
+      right: 15px;
+      top: 15px;
+      font-size: 30px;
     }
   }
   

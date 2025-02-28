@@ -177,7 +177,7 @@ export default function SkillsPage() {
             className="skill-image"
           />
           <span className="skill-text">
-            Extensive knowledge of HTML
+            Extensive knowledge of HTML & EJS
           </span>
         </div>
         <div className="skill-item" id="skillstemplate2">
@@ -187,7 +187,7 @@ export default function SkillsPage() {
             className="skill-image"
           />
           <span className="skill-text">
-            Extensive knowledge of CSS
+            Extensive knowledge of CSS & SCSS
           </span>
         </div>
         <div className="skill-item" id="skillstemplate3">
@@ -197,7 +197,7 @@ export default function SkillsPage() {
             className="skill-image"
           />
           <span className="skill-text">
-            Extensive knowledge of JS
+            Extensive knowledge of JS & NodeJS
           </span>
         </div>
         <div className="skill-item" id="skillstemplate4">
@@ -207,7 +207,7 @@ export default function SkillsPage() {
             className="skill-image"
           />
           <span className="skill-text">
-            Some knowledge of Python
+            High knowledge of Python
           </span>
         </div>
         <div className="skill-item" id="skillstemplate5">
